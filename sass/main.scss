@@ -1,0 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
+  background-color: var(--white);
+}
+
+@import "utils/variables";
+@import "components/backdrop";
+@import "components/modal";
+@import "components/header";
+@import "components/section";
+@import "components/paragraph";
+@import "components/images";
+@import "components/equipment";
+@import "components/customers";
+@import "components/footer";
+
+@import "components/portfolio";
+@import "components/window";

@@ -1,0 +1,38 @@
+.paragraph {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    width: 270px;
+    margin-left: 30px;
+    color: $gray;
+  }
+
+  &--space {
+    margin-left: 0;
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: $black;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  /* &__icon:hover {
+  border: 1px solid var(--special);
+  border-radius: 4px;
+  fill:$special-blue;
+} */
+}
