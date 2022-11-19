@@ -10,10 +10,11 @@
     width: 370px;
     height: 404px;
     background-color: $white;
-    border: 1px solid #eeeeee;
+    @include border(#eeeeee);
   }
 
   &__images {
+    width: 100%;
     flex-basis: calc((100% - 30px) / 8);
     cursor: pointer;
   }

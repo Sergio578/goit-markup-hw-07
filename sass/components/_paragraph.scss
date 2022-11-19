@@ -33,6 +33,8 @@
   /* &__icon:hover {
   border: 1px solid var(--special);
   border-radius: 4px;
+  @include boder($special-blue);
+  @include boder-radius();
   fill:$special-blue;
 } */
 }

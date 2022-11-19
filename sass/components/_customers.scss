@@ -27,12 +27,12 @@
   }
 
   &__item {
-    border-radius: 4px;
+    @include border-radius();
   }
 
   &__item:hover {
     fill: $special-blue;
-    border: 1px solid $special-blue;
-    border-radius: 4px;
+    @include border($special-blue);
+    @include border-radius();
   }
 }
